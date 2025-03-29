@@ -17,6 +17,11 @@
     "*.{ts,tsx}": "eslint --fix"
   },
   "dependencies": {
+    "@mantine/core": "^7.17.3",
+    "@mantine/dates": "^7.17.3",
+    "@mantine/form": "^7.17.3",
+    "@mantine/hooks": "^7.17.3",
+    "dayjs": "^1.11.13",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
   },
@@ -35,6 +40,9 @@
     "husky": "^9.1.7",
     "jiti": "^2.4.2",
     "lint-staged": "^15.4.3",
+    "postcss": "^8.5.3",
+    "postcss-preset-mantine": "^1.17.0",
+    "postcss-simple-vars": "^7.0.1",
     "prettier": "^3.5.3",
     "sass": "^1.85.1",
     "typescript": "~5.7.2",

@@ -1,3 +1,4 @@
+import { Badge } from '@mantine/core';
 import classes from '../Calendar.module.scss';
 
 interface CalendarDayProps {
@@ -5,9 +6,7 @@ interface CalendarDayProps {
 }
 
 export function CalendarDay({ day }: CalendarDayProps) {
-  const dayFragment = day ? (
-    <span className={classes.dayNumber}>{day}</span>
-  ) : null;
+  const dayFragment = day ? <Badge color="deepBlue.5">{day}</Badge> : null;
 
   return <div className={classes.dayWrapper}>{dayFragment}</div>;
 }
